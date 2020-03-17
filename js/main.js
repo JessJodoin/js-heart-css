@@ -1,0 +1,23 @@
+var $header = $('header');
+var $h1 = $('h1');
+var $wrapper = $('main');
+var $intro = $('main p:first-child');
+var $h2 = $('h2');
+var $ul = $('section ul');
+var $img = $('img');
+var $first = $('section ul li:first-child');
+var $last = $('section ul li:last-child');
+var $dl = $('dl');
+var $dt = $('dt');
+
+$header.addClass('masthead');
+$h1.removeClass('big-heading').addClass('logo');
+$wrapper.addClass('wrapper');
+$intro.addClass('intro');
+$h2.addClass('slug-head');
+$ul.addClass('slug-list');
+$img.addClass('slug-img');
+$first.addClass('slug-list-first');
+$last.addClass('slug-list-last').show();
+$dl.addClass('classification');
+$dt.addClass('big-label');

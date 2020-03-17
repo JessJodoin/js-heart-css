@@ -20,4 +20,4 @@ $img.addClass('slug-img');
 $first.addClass('slug-list-first');
 $last.addClass('slug-list-last').show();
 $dl.addClass('classification');
-$dt.addClass('big-label');
+$dt.removeClass('big-label');
